@@ -1,0 +1,57 @@
+.bookmar--btn {
+  position: relative;
+}
+
+.bookmar--btn--carousel {
+  border: rgb(248, 119, 119) 1px solid;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: rgb(248, 119, 119);
+}
+
+.bookmar--btn--product {
+  border: none;
+  background-color: transparent;
+  color: rgb(248, 119, 119);
+}
+
+#for--org--bookmark {
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 100, 10);
+}
+
+.bookmar--btn--carousel .hover--btn {
+  width: 10rem;
+  color: rgb(247, 247, 248);
+  background-color: rgb(74, 78, 88);
+  padding: 0.5rem 1rem;
+  position: absolute;
+  font-size: 0.9rem;
+  font-weight: 600;
+  top: -3rem;
+  left: -4rem;
+  display: none;
+}
+
+.bookmar--btn:hover .hover--btn {
+  display: block;
+  cursor: pointer;
+}
+
+.bookmar--btn--product .hover--btn {
+  width: 7rem;
+  color: rgb(247, 247, 248);
+  background-color: rgb(74, 78, 88);
+  padding: 0.5rem 0.5rem;
+  position: absolute;
+  font-size: 0.7rem;
+  /* font-weight: 600; */
+  top: -2.5rem;
+  left: -2.5rem;
+  display: none;
+}
+
+.hover--btn {
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .img {
+        width: 100%;
+        height: 90vh;
+        border: 1px solid black;
+        background-color: aqua;
+      }
+      .img img {
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img">
+      <form action="">
+        <!-- <input type="file" id="input--file" /> -->
+        <!-- <button type="button" onclick="showoutput()">save</button> -->
+      </form>
+    </div>
+
+    <script>
+      const imgdiv = document.querySelector(".img");
+      //   const input = document.getElementById("input--file");
+
+      //   const showoutput = () => {
+      //     console.log("output : ", input.value);
+      //   };
+
+      //   showoutput();
+
+      //   input.addEventListener("change", () => {
+      //     console.log(this.files);
+      //   });
+      const PouplarAni = [
+        {
+          id: "1",
+          title: "Naruto",
+          type: "TV Series",
+          status: "Finished Airing",
+          seasons: {
+            no_of_seasons: "9",
+            no_of_episodes: "220",
+            S1: "25",
+            S2: "30",
+            S3: "22",
+            S4: "28",
+            S5: "32",
+            S6: "20",
+            S7: "18",
+            S8: "25",
+            S9: "20",
+          },
+          alt_titles: ["Naruto"],
+          image:
+            "https://staticg.sportskeeda.com/editor/2023/08/63291-16913969569317-1920.jpg",
+          thumb:
+            "https://media.licdn.com/dms/image/C4E12AQELK4qT_BKwYQ/article-cover_image-shrink_720_1280/0/1591530331604?e=2147483647&v=beta&t=t20UifSMg17vMQ_Ij7rmzAeW2Hfy9wCvSwXXBbPX4bk",
+          title_image:
+            "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/cr/logo/81c4b90f-30df-41d7-bcd4-3f9402de3b41.png",
+          sub: true,
+          dub: true,
+          lang: ["Japanese", "English", "Tamil", "Telugu", "Hindi"],
+          genre: ["Adventure", "Comedy", "Martial arts", "Fantasy", "Shonen"],
+          synopsis:
+            "It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.",
+          rank: "",
+        },
+      ];
+
+      //   imgdiv.innerHTML
+      PouplarAni.map((item) => {
+        imgdiv.innerHTML = `<img src="${item.title_image}" alt="">`;
+      });
+    </script>
+  </body>
+</html>

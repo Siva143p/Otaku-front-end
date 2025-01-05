@@ -1,0 +1,161 @@
+.Products {
+  width: 100%;
+  height: 25rem;
+  /* padding: 1rem 0; */
+  /* background-color: aqua; */
+  /* margin: 3rem 0; */
+  /* padding: 0 4rem; */
+}
+
+.react-multi-carousel-list {
+  height: 27rem;
+}
+
+.product {
+  width: 13rem;
+  height: 22rem;
+}
+
+.product:last-child {
+  margin-left: 3rem !important;
+  /* background-color: aqua !important; */
+}
+
+.product:first-child {
+  margin-right: 3rem !important;
+}
+
+.Product--card {
+  width: 100%;
+  height: 85%;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px rgb(43, 42, 42);
+  overflow: hidden;
+  position: relative;
+  /* cursor: pointer; */
+}
+
+.Product--card:hover {
+  transform: scale(1.2) !important;
+  z-index: 99;
+  transition: all 0.25s ease-out;
+  box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+
+.img--div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.img--div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.anime--card--content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.8) !important;
+  display: none;
+  font-size: 0.7rem;
+  text-align: left;
+  padding: 10px;
+  color: rgb(226, 226, 226);
+}
+
+/* .anime--card--content p {
+  margin: 0.5rem 0;
+} */
+
+.card--eps--seasons {
+  margin: 0.5rem 0;
+}
+
+.card--eps--seasons p {
+  margin: 0 !important;
+  color: rgb(147, 147, 147);
+  font-weight: 600;
+}
+
+/* #anime--card--ttl {
+  margin: 0.5rem 0;
+} */
+
+#anime--card--rating {
+  color: rgb(196, 195, 196);
+}
+
+.card--synopsis {
+  width: 100%;
+  height: 40%;
+  /* background-color: aqua; */
+  overflow: hidden;
+  font-size: 0.7rem;
+}
+
+.card--btns {
+  position: absolute;
+  bottom: 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+  color: rgb(248, 119, 119);
+}
+
+:is(.ply--btn, .add--btn):hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(43, 42, 42);
+}
+
+.Product--card:hover .anime--card--content {
+  display: block;
+}
+
+.Product--card:hover .is--saved {
+  display: none;
+}
+
+.card--ttl {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: white;
+  text-align: left;
+}
+
+.card--ttl p {
+  margin: 0.3rem;
+}
+
+.sub--dub {
+  color: rgb(147, 147, 147);
+}
+
+.is--saved {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  right: -2rem;
+  top: -1.3rem;
+  transform: rotate(45deg);
+  width: 4rem;
+  height: 3rem;
+}
+
+.is-saved--bkmrk {
+  color: rgb(248, 119, 119);
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 1.6rem;
+  bottom: 0.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .product:last-child {
+    margin-left: 0.5rem !important;
+  }
+
+  .product:first-child {
+    margin-right: 0.5rem !important;
+  }
+}

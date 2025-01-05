@@ -1,0 +1,42 @@
+/* .anime--carousel--section {
+  width: 100%;
+  height: 32rem;
+  position: relative;
+  z-index: 999;
+  margin: 5rem 0;
+  background-color: aquamarine;
+}
+
+.anime--Carousel {
+  width: 100%;
+  margin-top: 0 !important;
+}
+
+.caption {
+  text-align: left;
+  padding-left: 3rem;
+  margin-bottom: -2rem !important;
+}
+
+.caption p {
+  color: rgb(153, 152, 152);
+  font-weight: 600;
+}
+
+.action--genre--render {
+  text-align: left;
+} */
+
+.action--genre--render .product .Product--card {
+  width: 11rem;
+  height: 15rem;
+}
+
+.action--genre--render .product .Product--card .anime--card--content p {
+  font-size: 0.7rem !important;
+  font-weight: 400;
+}
+
+.action--genre--render h2 {
+  margin-left: 3rem;
+}

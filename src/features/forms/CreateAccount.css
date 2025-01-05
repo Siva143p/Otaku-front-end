@@ -1,0 +1,14 @@
+.creat-acc {
+  width: 100vw !important;
+  background-color: rgb(36, 36, 36);
+}
+
+.creat-acc input {
+  border: black 1px solid;
+  display: block !important;
+}
+
+.creat-acc form {
+  width: 100%;
+  /* display: flex; */
+}

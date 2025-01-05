@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.ani--div:hover .hover--show {
+  display: block;
+}
+
+.ani--div:hover .hover--rmv {
+  display: none;
+}
+
+.alphabet-links {
+  height: 2.5rem; /* Set height to fit buttons */
+  width: 100%; /* Set a larger width so buttons can overflow */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling */
+  white-space: nowrap; /* Prevent button text from wrapping */
+}
+
+.alphabet-links button {
+  margin-right: 1rem;
+  padding: 0;
+  display: inline-block; /* Ensure buttons are inline */
+  white-space: nowrap; /* Prevent text from wrapping */
+}

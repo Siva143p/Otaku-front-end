@@ -1,0 +1,82 @@
+.anime--recommendation {
+  max-width: 85rem;
+  height: 25rem;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 2rem auto;
+  padding: 0 4rem;
+  display: flex;
+}
+
+.img--section {
+  width: 40%;
+  height: 100%;
+  background-color: azure;
+}
+
+.img--section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ani--content {
+  width: 60%;
+  height: 100%;
+  color: aliceblue;
+  padding: 6rem 2rem;
+  text-align: left;
+}
+
+.anime--recom--ttl {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.ani--content a {
+  text-decoration: none;
+  color: white;
+}
+
+.ani--content a:hover {
+  text-decoration: underline;
+}
+
+#anime--audio {
+  color: rgb(154, 154, 154);
+  margin-left: 0.5rem;
+}
+
+#anime--type {
+  color: rgb(35, 156, 154);
+  font-weight: 600;
+}
+
+.recom--btn {
+  color: white;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+.in--watch {
+  width: 12.375rem !important;
+}
+
+#watch--btn {
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(255, 100, 10);
+  margin-right: 0.5rem;
+  color: black;
+}
+
+#add--btn {
+  padding: 0.4rem 1.5rem;
+  border: 2px solid rgb(255, 100, 10);
+  background-color: transparent;
+  color: rgb(255, 100, 10);
+}
+
+.ani--recom--bkmrk {
+  margin-right: 0.1rem;
+}

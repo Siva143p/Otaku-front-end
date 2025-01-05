@@ -1,0 +1,101 @@
+.watchlist--head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+.wl--head--st--comps {
+  display: flex;
+}
+
+.wl--head--title {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+}
+
+.saved--ani--list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+.saved--ani--card {
+  width: 16rem;
+  height: 17.625rem;
+  padding: 0.5rem;
+  /* margin: 0 0.5rem; */
+  margin-bottom: 1rem;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+}
+
+/* .saved--ani--card:nth {
+} */
+.saved--ani--card:hover {
+  background-color: rgb(20, 21, 25);
+}
+
+.sv--ani--img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.sv--ani--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sv--card--ttl {
+  margin: 0;
+  /* font-size: 1rem;
+  font-weight: 400; */
+}
+
+.sv--card--Se--ep {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(147, 147, 147);
+}
+
+.sv--ani--card--bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  /* background-color: aquamarine; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sv--card--ani--type {
+  color: rgb(36, 141, 141);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.sv--card--sub--dub {
+  margin-left: 0.5rem;
+  color: rgb(147, 147, 147);
+  font-size: 0.9rem;
+}
+
+.hrt--icon {
+  margin-right: 0.5rem;
+}
+
+.sv--card--icons {
+  color: rgb(160, 160, 160);
+}
+
+.sv--card--icons:hover {
+  color: white;
+}

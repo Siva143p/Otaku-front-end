@@ -1,0 +1,170 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"); */
+
+.background--wrapper {
+  width: 100%;
+  height: calc(100vh - 22.5rem);
+}
+
+.background--wrapper--blur {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.background--img {
+  width: 36%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.background--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.streaming--div--content {
+  max-width: 75rem;
+  margin: 3rem auto;
+  padding: 0 4rem;
+  color: white;
+  text-align: left;
+  /* font-family:
+    Lato,
+    Helvetica Neue,
+    helvetica,
+    sans-serif; */
+}
+
+.anime--streaming--info {
+  width: 100%;
+  display: flex;
+}
+
+.st--ani--info {
+  width: 70%;
+  /* background-color: rgb(17, 143, 143); */
+  padding-right: 2rem;
+}
+
+.st--ani--info h2 {
+  margin-bottom: 1rem;
+}
+
+.st--ani--info .sub--dub {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(147, 147, 147);
+}
+
+.st--rating span {
+  font-size: 0.9rem;
+  color: rgb(199, 199, 199);
+}
+
+.st--btns {
+  margin: 1.3rem 0;
+}
+
+.st--btns button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#st--add--btn {
+  border: 2px solid rgb(255, 100, 10);
+  color: rgb(255, 100, 10);
+}
+
+.st--btn {
+  margin-right: 0.5rem;
+}
+
+#st--otaku--list {
+  color: rgb(160, 160, 160);
+}
+
+.st--synopsis {
+  margin: 1.5rem 0;
+  /* font-weight: 600; */
+  /* letter-spacing: 0.5px; */
+  line-height: 25px;
+  /* line-break: loose; */
+}
+
+.st--genre a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
+  color: rgb(199, 199, 199);
+  margin: 0 1rem;
+}
+
+.st--genre a:first-child {
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.st--other--details {
+  margin: 1.5rem 0;
+}
+
+.st--detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.st--detail h3 {
+  font-size: 1rem;
+  /* font-weight: 600; */
+}
+
+.st--detail p {
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.st--subtitles {
+  width: 60%;
+}
+
+.st--ep1--div {
+  width: 30%;
+  /* background-color: rgb(39, 209, 231); */
+}
+
+.st--epi--img {
+  width: 100%;
+  height: 12rem;
+  margin: 0.5rem 0;
+}
+
+.st--epi--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.st--ep1--div button {
+  background-color: rgb(255, 100, 10);
+  padding: 0.5rem 0;
+  width: 100%;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.st--epi--list {
+  max-width: 70rem;
+  height: auto;
+  margin: 3rem auto;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 1rem 0;
+  font-weight: 200;
+}
